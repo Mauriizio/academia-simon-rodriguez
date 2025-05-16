@@ -1,0 +1,15 @@
+# Crea el archivo
+touch .gitignore   # o New-Item .gitignore -ItemType File en PowerShell
+
+# Ábrelo y pega algo como:
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+.vscode/
+*.log
+.cache/
+.vite/
+coverage/
+.tailwindcache/
